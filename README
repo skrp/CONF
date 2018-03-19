@@ -7,11 +7,12 @@ CONF -> simple line-by-line sha-verified-configs
 
 PF -> PAM -> OTOPSKOPIE -> JAIL -> SERVICE
 
-PF    - interface filter
-PAM   - credential authentication
-ANONi - network anony interface
-JAIL  - "host ping ip4 free size\n"
-
+PF         - interface filter
+PAM        - credential authentication
+ANONi      - network anony interface
+JAIL       - "host ping ip4 free size\n"
+SERVICE    - network session
+OTOPSKOPIE - One Time Only Pre Shared Keys One Password In Everything
 
 USR => ip4 => ANONi
               ANONi => hostname@usr => port
