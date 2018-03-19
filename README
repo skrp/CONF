@@ -5,4 +5,11 @@ Configuration as core-mechanic
 
 CONF -> simple line-by-line sha-verified-configs
 
-PF -> PAM -> OTOPSKOPIE -> SERVICE
+PF -> PAM -> OTOPSKOPIE -> JAIL -> SERVICE
+
+JAIL - "host ping ip4 free size\n"
+
+USR => ip4 => ANONi
+              ANONi => hostname@usr => port
+
+
